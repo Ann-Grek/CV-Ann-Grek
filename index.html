@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тут ви можете описати Вашу сторінку">
+
+    <!-- Fonts in project -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Fonts in project -->
+
+    <!-- Swiper CSS files -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/simpleLightbox.min.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    
+    <!-- Сюди необхідно додати CSS файли для секцій та окремих компонентів -->
+    <link rel="stylesheet" href="css/section-1.css">
+    
+    <!-- Кінець блоку CSS файлів для кожної із секцій та компонентів -->
+
+    <title>Грек Анна Портфоліо</title>
+
+</head>
+<body id="home">
+    <!-- Navigation section -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#top" class="img-box">
+                    <img src="img/avatar.jpg" alt="Грек Анна">
+                </a>
+                <span>Анна Грек</span>
+           </div>
+           <div class="navigation">
+                <button class="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="level_1">
+                    <li><a class="nav-link" href="#top">Додому</a></li>
+                    <li><a class="nav-link" href="#s1">Про мене</a></li>
+                    <li><a class="nav-link" href="#s2">Я вмію</a></li>
+                    <li><a class="nav-link" href="#s3">Портфоліо</a></li>
+                </ul>
+           </div>
+       </div>
+    </nav>
+    <!-- END of Navigation section -->
+
+    <!-- C O N T N E N T   W R A P P E R -->
+    <div id="top" class="wrapper"> <!-- Загальний контейнер -->
+
+        <!-- Start of the Header section -->
+        <header class="container">
+            <div class="inside">
+                <div class="cover img-box">
+                    <img src="img/image-in-top.jpg" alt="Обкладинка сторінки Грек Анна">
+                </div>
+                <div class="avatar img-box">
+                    <img src="img/avatar.jpg" alt="Грек Анна аватар">
+                </div>
+                <h1 class="center">Анна Грек</h1>
+                <p class="center narrow">студентка групи №32 <br>кафедри графічного дизайну</p>
+                <p class="center narrow">Львівської національної<br>академії мистецтв</p>
+            </div>
+        </header>
+        <!-- END of the Header section -->
+
+        <!-- Section #s1 -->
+        <section id="s1" class="container">
+            <div class="inside">
+                <h2>Про&nbsp;мене</h2>
+                <div class="cols">
+                    <div class="col col-1">
+                        <img class="rounded" src="img/avatar.jpg" alt="Грек Анна">
+                    </div>
+                    <div class="col col-2" style="height: 300px;">
+                        <h3>Привіт!</h3>
+                        <p>Менен звати Анна я - графічний та веб-дизайнер. Зараз навчаюся у Львівській Національній Академії мистецтв на 3 курсі, спеціальність - графічний дизайн. Стараюся поєднувати роботу з навчанням (працюю в компанії на посаді веб-дизайнера, також виконую замовлення на фрілансі). <br> Допоможу створити щось красиве та унікальне саме для твого бренду!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section #s2 -->
+        <section id="s2" class="container">
+            <div class="inside">
+                <h2 class="title center abr">Я&nbsp;вмію</h2>
+                <div id="swiper-01" class="swiper-container slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item">
+                            <img src="img/ai.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide item">
+                            <img src="img/ps.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide item">
+                            <img src="img/id.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide item">
+                            <img src="img/f.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <h3>Що я можу запропонувати?</h3>
+                <p class="signatures">Графічний дизайн</p>
+                <ul>
+                    <li>Розробка фірмового стилю</li>
+                    <li>Розробка айдентики</li>
+                    <li>Створення логотипів</li>
+                    <li>Створення плакатів, листівок, флаєрів та ін.</li>
+                    <li>Дизайн пакування, етикеток та ін.</li>
+                </ul>
+                <p class="signatures">Веб-дизайн</p>
+                <ul>
+                    <li>Розробка сайтів</li>
+                    <li>Розробка додатків</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section #s3 -->
+        <section id="s3" class="container">
+            <div class="inside">
+                <h2>Моє&nbsp;портфоліо</h2>
+                <div class="gallery">
+                    <a class="img-box" href="img/1.jpg">
+                        <img src="img/1.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/2.jpg">
+                        <img src="img/2.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/3.jpg">
+                        <img src="img/3.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/4.jpg">
+                        <img src="img/4.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/5.jpg">
+                        <img src="img/5.jpg" alt="" />
+                    </a>
+                    <a class="img-box" href="img/6.jpg">
+                        <img src="img/6.jpg" alt="" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="s4" class="container">
+            <div class="inside">
+                <h2>Досвід&nbspроботи</h2>
+                <div class="job">
+                    <h3>Веб-дизайнер у Journey of Results</h3>
+                    <p class="signatures">Жовтень 2024 — Зараз</p>
+                    <ul>
+                        <li>Розробка веб-сайтів та додатків для різних брендів.</li>
+                        <li>Робота в команді для надання високоякісних рішень.</li>
+                        <li>Робота над покращенням інтерфейсу додатків та сайтів, виправлення помилок та покращення взаємодії з клієнтом.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="s5" class="container">
+            <div class="inside">
+                <h2>Знання&nbspмов</h2>
+                <ul>
+                    <li>Українська мова - вільно</li>
+                    <li>Англійська мова - B2</li>
+                </ul>
+                 </div>
+            </div>
+        </section>
+
+        <section id="s6" class="container">
+            <div class="inside">
+                        <h2>Контакти</h2>
+                        <ul>
+                            <li>Email: <a href="mailto:anngrek72@gmail.com">anngrek72@gmail.com</a></li>
+                            <li>Telegram: <a href="https://t.me/AnnGrek" target="_blank">@AnnGrek</a></li>
+                            <li>References: <a href="https://www.behance.net/anngrek">behance.net</a></li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start of the Footer section -->
+        <footer class="container">
+            <div class="inside">
+                <h4>Будьмо на зв&#8217;язку</h4>
+                <div class="social-icons">
+                    <a class="instagram" href="">
+                        
+                    </a>
+                    <a class="behance" href="">
+
+                    </a>
+                    <a class="youtube" href="">
+
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <!-- END of the Footer section -->
+
+    </div>
+    <!-- E N D   O F   C O N T N E N T   W R A P P E R -->
+
+    <!-- Scripts in project -->
+    <script src="js/nav.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script> <!-- Бібліотечний JavaScript для слайдера (каруселі) -->
+    <script src="js/swiper-init.js"></script>       <!-- Ініціалізація слайдерів (каруселей) -->
+
+    <script src="js/simpleLightbox.min.js"></script>
+    
+    <script type="text/javascript">
+       var lightbox = new SimpleLightbox({
+            elements: document.querySelectorAll('.gallery a')
+        }); 
+    </script>
+
+    <!-- End of Scripts in project -->
+</body>
+</html>
